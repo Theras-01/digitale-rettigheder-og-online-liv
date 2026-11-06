@@ -3,3 +3,111 @@
     margin: 0;
 }
 
+.container {
+    background-color: #f9ece5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+
+/*Overall elementer*/
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    grid-column: 1/3
+}
+
+.logo {
+    width: 60px;
+    padding: 10px;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+
+p {
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+
+/*Indhold*/
+
+header {
+    background-color: #220d62;
+    color: white;
+    height: 60px;
+    grid-column: 1/3;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: grid;
+    grid-column: 1/3;
+    gap: 25px;
+}
+
+.boks-1 {
+    background-color: #0b78b3;
+    color: white;
+    grid-column: 1/3;
+    padding: 10px;
+}
+
+.cta-knap-1 {
+    background-color: #b52c19;
+    border-radius: 25px;
+    padding: .7em;
+    display: flex;
+    width: 175px;
+    margin: 10px;
+    border-style: solid;
+}
+
+.boks-2 {
+    background-color: #0b78b3;
+    color: white;
+    grid-column: 1/3;
+    padding: 10px;
+}
+
+.cta-knap-2 {
+    background-color: #b52c19;
+    border-radius: 25px;
+    padding: .7em;
+    display: flex;
+    width: 140px;
+    margin: 10px;
+    border-style: solid;
+}
+
+.boks-3 {
+    background-color: #0b78b3;
+    color: white;
+    grid-column: 1/3;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: #220d62;
+    color: white;
+    height: 60px;
+    grid-column: 1/3;
+    display: flex;
+    align-items: center;
+}
