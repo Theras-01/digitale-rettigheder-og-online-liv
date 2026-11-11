@@ -13,7 +13,6 @@ const openNav = () => {
     /*aria-label*/
     const label = bars.getAttribute('aria-label') === 'åben navigation';
     bars.setAttribute('aria-label', label ? 'luk navigation' : 'åben navigation');
-
 }
 
 bars.addEventListener("click", openNav);
