@@ -24,7 +24,7 @@ a:hover {
 
 img {
     max-width: 100%;
-    grid-column: 1/3
+    grid-column: 1/3;
 }
 
 .logo {
@@ -134,8 +134,11 @@ main {
     border-radius: 25px;
     padding: .7em;
     display: flex;
-    width: 175px;
+    align-items: center;
+    justify-content: space-around;
+    width: 220px;
     border-style: solid;
+    
 }
 
 .boks-2 {
@@ -151,8 +154,14 @@ main {
     padding: .7em;
     margin-top: 10px;
     display: flex;
-    width: 142px;
+    align-items: center;
+    justify-content: space-around;
+    width: 185px;
     border-style: solid;
+}
+
+.cta-knap-2 i, .cta-knap-3 i {
+    font-size: 1.4em;
 }
 
 .boks-3-1 {
