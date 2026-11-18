@@ -240,13 +240,18 @@ footer i {
 /*Computer version*/
 
 @media screen and (min-width: 1024px) {
+    .bannerbillede {
+        width: 100%;
+        object-fit: cover;
+        height: 20em;
+    }
+    
     .boks-2 h2, .cta-knap-3 {
-        float: right;
+        grid-column: 2/3;
     }
     
     .boks-2 img {
         width: 50%;
-        float: left;
     }
 
     .boks-3-1 {
